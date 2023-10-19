@@ -1,24 +1,32 @@
 module.exports =
 {
+    base: '/test/',
     themeConfig:
     {
         nav:
         [
             { text: "Home", link: "/" }
         ],
-        sidebarDepth: 2,
-        displayAllHeaders: true,
         sidebar:
         [
             {
-                title: "Title1",
-                collapsable: false,
-                children: ['/']
+                title: "先前准备",
+                sidebarDepth: 2,
+                children:
+                [
+                    '/precede/Preface',
+                    '/precede/Installation',
+                    '/precede/VSCode',
+                    '/precede/VSCodeUsage'
+                ]
             },
             {
-                title: "Title2",
+                title: "基本知识",
                 collapsable: false,
-                children: ['/basic/']
+                children: ['/basic/Variables']
+            },
+            {
+                title: ""
             }
         ]
     }
