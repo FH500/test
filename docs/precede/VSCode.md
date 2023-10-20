@@ -16,7 +16,7 @@
 
 ### Windows 系统
 
-在 Github 上下载 MingW 编译器，点击[此处](https://github.com/skeeto/w64devkit/releases)以打开链接，在 Assests 下选择适用于你系统位数的压缩包，如 64 位系统选择 `w64devkit-1.20.0.zip`，32 位系统选择 `w64devkit-i686-1.20.0.zip`。如果你不知道你的操作系统的位数，请参阅[如何查看我的操作系统的位数](\404)
+在 Github 上下载 MingW 编译器，点击[此处](https://github.com/skeeto/w64devkit/releases)以打开链接，在 Assests 下选择适用于你系统位数的压缩包，如 64 位系统选择 `w64devkit-1.20.0.zip`，32 位系统选择 `w64devkit-i686-1.20.0.zip`。如果你不知道你的操作系统的位数，请参阅[如何查看我的操作系统的位数](\404)。
 
 ![Download image](./1.png)
 

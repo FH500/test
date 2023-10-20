@@ -7,7 +7,7 @@ module.exports =
     {
         '/':
         {
-            lang: 'zh-cn',
+            lang: 'zh-CN',
             title: '计算概论学业辅导文档'
         }
     },
@@ -21,6 +21,7 @@ module.exports =
         [
             {
                 title: "先前准备",
+                sidebarDepth: 2,
                 collapsable: false,
                 children:
                 [
@@ -32,6 +33,7 @@ module.exports =
             },
             {
                 title: "基本知识",
+                sidebarDepth: 2,
                 collapsable: false,
                 children:
                 [
@@ -40,6 +42,7 @@ module.exports =
             },
             {
                 title: "其他",
+                sidebarDepth: 2,
                 collapsable: false,
                 children:
                 [
