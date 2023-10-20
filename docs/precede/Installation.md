@@ -6,5 +6,6 @@
 
 - [VSCode](./VSCode) <Badge text="非常推荐"/>
 - [Visual Studio](/404)
-- [dev-c++](/404) <Badge text="不推荐" type="error"/>
+- [dev-c++](/404) <Badge text="不推荐" type="warning"/>
 - [Eclipse](/404)
+- Xcode

@@ -12,7 +12,7 @@
 首先需要安装 C/C++ 编译器。目前的 C/C++ 编译器有几个主要流派，如果你对编译器不了解，可以按照本文档的介绍来安装。
 
 根据你的操作系统参阅：
-- [Windows 系统](./VSCode#Windows-系统)
+- [Windows 系统](./VSCode.md#windows-系统)
 
 ### Windows 系统
 
