@@ -25,10 +25,22 @@ module.exports =
         docsBranch: 'main',
         editLinks: true,
         editLinkText: '在 Github 上编辑此页',
+        contributors: true,
         lastUpdated: '最后更新时间',
         nav:
         [
-            { text: "C/C++", link: "/" }
+            { text: "说明", link: "/" },
+            { text: "联系我们", link: "/Contactme" },
+            { text: "关于", link: "/About"},
+            {
+                text: "外部链接",
+                items:
+                [
+                    { text: "留言板", link: "https://o7dphiquc5.feishu.cn/docx/H5imdNTLgo57wexd5mQcCFDFndg?from=from_copylink"},
+                    { text: "Github", link: "https://github.com/"},
+                    { text: "C++ reference", link: "https://en.cppreference.com/w/"}
+                ]
+            }
         ],
         sidebar:
         [
@@ -51,6 +63,11 @@ module.exports =
                 children:
                 [
                     '/basic/Variables',
+                    '/basic/IO',
+                    '/basic/Operator',
+                    '/basic/Array',
+                    '/basic/Function',
+                    '/basic/Pointer'
                 ]
             },
             {
@@ -59,7 +76,9 @@ module.exports =
                 collapsable: false,
                 children:
                 [
-                    '/basic/Debug'
+                    '/more/Debug',
+                    '/more/VSCodeConfig',
+                    '/more/VPN'
                 ]
             }
         ]

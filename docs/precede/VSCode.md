@@ -18,19 +18,21 @@
 
 在 Github 上下载 MingW 编译器，点击[此处](https://github.com/skeeto/w64devkit/releases)以打开链接，在 Assests 下选择适用于你系统位数的压缩包，如 64 位系统选择 `w64devkit-1.20.0.zip`，32 位系统选择 `w64devkit-i686-1.20.0.zip`。如果你不知道你的操作系统的位数，请参阅[如何查看我的操作系统的位数](\404)。
 
-![Download image](./1.png)
+与 Github 的直连的下载速度比较慢，你可能需要使用梯子或其他方法加速下载。如果你没有梯子，可以选择从我提供的[链接](https://disk.pku.edu.cn:443/link/1277246D68FB627BE6C9238F015E659D)下载。
 
-下载完毕后，解压的合适的目录，注意，编译器的文件路径中不要含有中文字符！如我的文件目录如下。
+![1](./imgvscode/1.png)
 
-![2](./2.png)
+下载完毕后，解压的合适的目录，注意，编译器的文件路径中不要含有中文字符和空格！如我的文件目录如下。
+
+![2](./imgvscode/2.png)
 
 接下来，将编译器添加到环境变量中。首先，复制 `w64devkit` 文件夹下 `bin` 文件夹的路径。我的路径如下。
 
-![3](./3.png)
+![3](./imgvscode/3.png)
 
 按 `WIN+I` 打开设置界面，搜索 `环境变量`，选中 `编辑系统环境变量`，在弹出的窗口中选中 `环境变量` 按钮，在 `系统变量` 中找到并选中 `Path` 变量，点击 `编辑` 按钮，在弹出的窗口中点击 `新建` 按钮，将编译器的路径复制粘贴进去，然后点击 `确定` 完成配置。
 
-![4](./4.png)
+![4](./imgvscode/4.png)
 
 ### Linux 系统
 
@@ -40,14 +42,16 @@
 
 进入 [VSCode 官网](https://code.visualstudio.com/)，下载并安装适用于你的操作系统的版本。
 
-![5](./5.png)
+![5](./imgvscode/5.png)
 
 完成安装后打开 VSCode，在左侧边栏中选中 `Extensions` 选项单，然后在子窗口中搜索 `C`，找到 `C/C++ Extension Pack` 然后点击 `Install` 安装。同样在继续安装扩展 `C/C++ Runner`。
 
-![6](./6.png)
-![7](./7.png)
+![6](./imgvscode/6.png)
+
+![7](./imgvscode/7.png)
 
 安装完成！编写一个 `Hello World` 程序来体验一下吧！
 
 **参阅：**
 - [使用 VSCode 编写 C/C++ 程序](./VSCodeUsage.md)
+- [VSCode 的配置](/more/VSCodeConfig)
