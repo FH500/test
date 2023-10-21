@@ -78,6 +78,7 @@ module.exports =
                 [
                     '/more/Debug',
                     '/more/VSCodeConfig',
+                    '/more/VS',
                     '/more/VPN'
                 ]
             }
