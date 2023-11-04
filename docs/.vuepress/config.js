@@ -71,6 +71,19 @@ module.exports =
                 ]
             },
             {
+                title:"STL",
+                sidebarDepth: 2,
+                collapsable: false,
+                children:
+                [
+                    '/STL/Vector',
+                    '/STL/Map',
+                    '/STL/Set',
+                    '/STL/Stack',
+                    '/STL/Queue'
+                ]
+            },
+            {
                 title: "其他",
                 sidebarDepth: 2,
                 collapsable: false,
