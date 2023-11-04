@@ -11,9 +11,9 @@
 using namespace std;
 ```
 
-# 创建一个vector
+## 创建一个vector
 
-## 不初始化
+### 不初始化
 
 我们就像queue、stack那样，用 `vector<typeName>` 来创建一个用来装类型 `typeName` 的vector。
 
@@ -25,12 +25,10 @@ vector<stack<int> > ss;
 vector<queue<int> > qs;
 ```
 
-<aside>
-💡 顺便一提，之前所有占位的 `typeName` ，除了 `map` 与 `unordered_map` 的键(第一个类型)，都可以是STL容器。
+💡 顺便一提，之前所有占位的 `typeName` ，除了 `map` 与 `unordered_map` 的键(第一个类型)，都可以是STL容
 
-</aside>
 
-## 初始化
+### 初始化
 
 虽然 `vector` 是不定长数组，但我们也当然可以给它一个初始的长度。
 
@@ -83,9 +81,9 @@ vector<int> a(b, b+7);
 
 这样能够将数组 `b` 中的前7个元素复制出来，作为 `a` 的初值。
 
-# 成员函数
+## 成员函数
 
-## 添加元素到末尾 `push_back()`
+### 添加元素到末尾 `push_back()`
 
 我们可以这样给一个vector末尾添加元素：
 
@@ -93,7 +91,7 @@ vector<int> a(b, b+7);
 a.push_back(7);
 ```
 
-## 删除末尾的元素 `pop_back()`
+### 删除末尾的元素 `pop_back()`
 
 这样可以删除vector末尾的元素：
 
@@ -101,7 +99,7 @@ a.push_back(7);
 a.pop_back();
 ```
 
-## 清空 `clear()`
+### 清空 `clear()`
 
 字面意思，和其他STL容器类似
 
@@ -109,7 +107,7 @@ a.pop_back();
 a.clear();
 ```
 
-## 判断大小 `size()` | 判断是否为空 `empty()`
+### 判断大小 `size()` | 判断是否为空 `empty()`
 
 和其他STL容器类似
 
@@ -119,7 +117,7 @@ if(!a.empty()) {
 }
 ```
 
-# 遍历方法
+## 遍历方法
 
 因为vector为STL容器，所以我们可以这样遍历：（类似 `<map>` 中的方法）
 
@@ -138,7 +136,7 @@ for(int i=0; i<l; i++) {/
 }
 ```
 
-# 删除元素
+## 删除元素
 
 erase函数
 
