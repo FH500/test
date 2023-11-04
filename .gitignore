@@ -2,3 +2,4 @@
 /test
 /.vscode
 /docs/.vuepress/dist
+/deploy.sh
