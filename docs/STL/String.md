@@ -156,20 +156,20 @@ erase(first, last); //删除从 first 到 last 之间的字符（first 和 last 
 应用实例：
 
 ```cpp
-string str ("This is an example phrase.");
+string str("This is an example phrase.");
 string::iterator it;
 
 // 第 1 种用法
-str.erase (10,8);
+str.erase(10, 8);
 cout << str << endl;        // "This is an phrase."
 
 // 第 2 种用法
-it=str.begin()+9;
-str.erase (it);
+it=str.begin() + 9;
+str.erase(it);
 cout << str << endl;        // "This is a phrase."
 
 // 第 3 种用法
-str.erase (str.begin()+5, str.end()-7);
+str.erase(str.begin() + 5, str.end() - 7);
 cout << str << endl;        // "This phrase."
 ```
 
@@ -184,13 +184,13 @@ string substr(size_t pos = 0, size_t len = npos) const;
 - 功能：从子字符串中获取想要的子字符串
 - 参数：
     - `pos`：想要获取的子字符串的第一个字符的位置，如果 `pos` 等于字符串长度，则该函数返回一个空字符串，如果等于字符串长度，则该函数返回一个空的字符串，如果该长度大于字符串长度，则抛出一个 `out_of_range`。 注：第一个字符的下标从 `0` 开始。
-    - `len`：子字符串中要包含的字符数, `string::npos` 的值表示知道字符串末尾的所有字符。
+    - `len`：子字符串中要包含的字符数, `string::npos` 的值表示直到字符串末尾的所有字符。
 - 返回值：带有对象子字符串的字符串对象。
 
 **应用实例：**
 
 ```cpp
-string s1 **=** "Hello World"
-string s2 **=** s1.substr(3, 5);
-string s3 **=** s1.substr(3, str**::**npos); //截取从下标 3 到结束的子字符串
+string s1 = "Hello World"
+string s2 = s1.substr(3, 5);
+string s3 = s1.substr(3, string::npos); //截取从下标 3 到结束的子字符串
 ```
