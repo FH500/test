@@ -81,6 +81,15 @@ module.exports =
                     '/more/VS',
                     '/more/VPN'
                 ]
+            },
+            {
+                title: "速查表",
+                sidebarDepth: 2,
+                collapsable: false,
+                children:
+                [
+                    '/table/ASCII',
+                ]
             }
         ]
     }
