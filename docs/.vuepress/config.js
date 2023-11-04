@@ -71,16 +71,17 @@ module.exports =
                 ]
             },
             {
-                title:"STL",
+                title: "STL",
                 sidebarDepth: 2,
                 collapsable: false,
                 children:
                 [
                     '/STL/Vector',
-                    '/STL/Map',
+                    '/STL/String',
+/*                     '/STL/Map',
                     '/STL/Set',
                     '/STL/Stack',
-                    '/STL/Queue'
+                    '/STL/Queue' */
                 ]
             },
             {
