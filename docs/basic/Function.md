@@ -252,6 +252,7 @@ int main()
     int a = 1;
     cout << "In main address: " << &a << "\nValue: " << a << endl;
     fun(a);
+    cout << "The value of a after fun is called: " << a;
 }
 ```
 
