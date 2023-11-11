@@ -3,6 +3,7 @@
     "vuepress": "^1.9.10"
   },
   "dependencies": {
+    "node": "^21.1.0",
     "webpack": "^4.47.0"
   },
   "scripts": {
