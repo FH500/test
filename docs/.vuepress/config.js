@@ -67,7 +67,17 @@ module.exports =
                     '/basic/Operator',
                     '/basic/Array',
                     '/basic/Function',
-                    '/basic/Pointer'
+                    '/basic/Pointer',
+                    '/basic/Statements'
+                ]
+            },
+            {
+                title: "进阶知识",
+                sidebarDepth: 2,
+                collapsable: false,
+                children:
+                [
+                    '/advance/Scope'
                 ]
             },
             {
