@@ -1,6 +1,6 @@
 # 语句
 
-语句是程序的执行片段。我们的函数体就是由语句序列组成的。一般的语句会以分号 `;` 作为结束的标志。如下是一些语句的示例：
+语句（Statements）是程序的执行片段。我们的函数体就是由语句序列组成的。一般的语句会以分号 `;` 作为结束的标志。如下是一些语句的示例：
 
 ``` cpp
 int main()
@@ -39,7 +39,7 @@ int main()
 ``` cpp
 // 用法 1
 if (expression)
-    statement;
+    singleStatement;
 // 用法 2
 if (expression)
 {
