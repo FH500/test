@@ -2,4 +2,5 @@
 /test
 /.vscode
 /docs/.vuepress/dist
-deploy.sh
+/deploy.sh
+/yarn.lock
