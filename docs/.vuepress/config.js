@@ -77,7 +77,8 @@ module.exports =
                 collapsable: false,
                 children:
                 [
-                    '/advance/Scope'
+                    '/advance/Scope',
+                    '/advance/Algorithm'
                 ]
             },
             {
@@ -113,6 +114,7 @@ module.exports =
                 children:
                 [
                     '/table/ASCII',
+                    '/table/C++Function'
                 ]
             }
         ]
