@@ -474,7 +474,7 @@ void move(int from, int to, int size)
     // size == 1 时，直接将盘子从 from 移动到 to 即可。
     if (size == 1)
         cout << resolve(from) << "->" << 1 << "->" << resolve(to) << endl;
-    // size >= 1 时，需要三步
+    // size > 1 时，需要三步
     // 第一步，将除了最下面的盘子以外的所有盘子移动到不是 to 的另一个盘子处，称为中转处。
     // 第二步，将最下面的盘子移动到 to 处。
     // 第三步，将中转处的盘子移动到 to 处。
