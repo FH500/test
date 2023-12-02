@@ -76,12 +76,17 @@ int main()
 ```
 :::
 
-::: tip E1. 完美立方数
-a 的立方 = b 的立方 + c 的立方 + d 的立方 为完美立方等式。例如 12 的立方 = 6 的立方 + 8 的立方 + 10 的立方。编写一个程序，对任给的正整数 N (N ≤ 100)，寻找所有的四元组(a, b, c, d)，使得 a 的立方 = b 的立方 + c 的立方 + d 的立方，其中 a, b, c, d 大于 1, 小于等于 N。
+::: tip E1. 完美立方数  
+<LatexDisplay>a^3 = b^3 + c^3 + d^3</LatexDisplay>称为完美立方等式。例如 
+<LatexDisplay>12^3 = 6^3 + 8^3 + 10^3</LatexDisplay>。编写一个程序，对任给的正整数 
+<LatexDisplay>N <= 100</LatexDisplay>，寻找所有的四元组 
+<LatexDisplay>(a, b, c, d)</LatexDisplay>，使得 
+<LatexDisplay>a^3 = b^3 + c^3 + d^3</LatexDisplay>，其中 
+<LatexDisplay>1&lt;a, b, c, d<=N</LatexDisplay>。
 
 **输出：**
 
-每行输出一个完美立方，按照a的值，从小到大依次输出。当两个完美立方等式中a的值相同，则依次按照b、c、d进行非降升序排列输出，即b值小的先输出、然后c值小的先输出、然后d值小的先输出。
+每行输出一个完美立方，按照 <LatexDisplay>a</LatexDisplay> 的值，从小到大依次输出。当两个完美立方等式中 <LatexDisplay>a</LatexDisplay> 的值相同，则依次按照 <LatexDisplay>b</LatexDisplay>、<LatexDisplay>c</LatexDisplay>、<LatexDisplay>d</LatexDisplay> 进行非降升序排列输出，即 <LatexDisplay>b</LatexDisplay> 值小的先输出、然后 <LatexDisplay>c</LatexDisplay> 值小的先输出、然后 <LatexDisplay>d</LatexDisplay> 值小的先输出。
 
 **参考输入：**
 
@@ -518,6 +523,16 @@ int main()
 [信奥](http://ybt.ssoier.cn:8088/problem_show.php?pid=1204)
 :::
 
+递推关系：
+<LatexDisplay>
+f(n) = f(n - 1) + f(n - 2)
+</LatexDisplay>
+
+边界条件：
+<LatexDisplay>
+f(1) = 1, f(2) = 2
+</LatexDisplay>
+
 ::: details 参考代码
 ``` cpp
 #include <iostream>
@@ -543,7 +558,10 @@ int main()
 ```
 :::
 
-递归的作用：代替 n 重循环；将问题分解为规模更小的相似的子问题求解。
+递归的作用：
+
+- 代替 n 重循环
+- 将问题分解为规模更小的相似的子问题求解
 
 ## 递归与递推的区别
 
