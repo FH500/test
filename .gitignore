@@ -4,3 +4,5 @@
 /docs/.vuepress/dist
 /deploy.sh
 /yarn.lock
+/package-lock.json
+```
