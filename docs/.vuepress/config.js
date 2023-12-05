@@ -96,6 +96,16 @@ module.exports =
                 ]
             },
             {
+                title: "计算机基础知识",
+                sidebarDepth: 2,
+                collapsable: false,
+                children:
+                [
+                    '/computer/conversion',
+                    '/computer/hardware',
+                ]
+            },
+            {
                 title: "其他",
                 sidebarDepth: 2,
                 collapsable: false,
