@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>函数 | 计算概论学业辅导文档</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/test/assets/css/0.styles.aeaa52fd.css" as="style"><link rel="preload" href="/test/assets/js/app.a472b090.js" as="script"><link rel="preload" href="/test/assets/js/2.11d8e1ba.js" as="script"><link rel="preload" href="/test/assets/js/1.d71b1245.js" as="script"><link rel="preload" href="/test/assets/js/26.ea09796b.js" as="script"><link rel="prefetch" href="/test/assets/js/10.2f6441e7.js"><link rel="prefetch" href="/test/assets/js/11.679512bf.js"><link rel="prefetch" href="/test/assets/js/12.3cb8920a.js"><link rel="prefetch" href="/test/assets/js/13.1b9b0b0f.js"><link rel="prefetch" href="/test/assets/js/14.4109795f.js"><link rel="prefetch" href="/test/assets/js/15.878adf19.js"><link rel="prefetch" href="/test/assets/js/16.dfcc0157.js"><link rel="prefetch" href="/test/assets/js/17.617a8f05.js"><link rel="prefetch" href="/test/assets/js/18.fd66c852.js"><link rel="prefetch" href="/test/assets/js/19.80e59117.js"><link rel="prefetch" href="/test/assets/js/20.f7e2c48f.js"><link rel="prefetch" href="/test/assets/js/21.88005118.js"><link rel="prefetch" href="/test/assets/js/22.f693bd06.js"><link rel="prefetch" href="/test/assets/js/23.5f88b575.js"><link rel="prefetch" href="/test/assets/js/24.a89b93a9.js"><link rel="prefetch" href="/test/assets/js/25.17c83a3f.js"><link rel="prefetch" href="/test/assets/js/27.2fc23ebe.js"><link rel="prefetch" href="/test/assets/js/28.65fc86fa.js"><link rel="prefetch" href="/test/assets/js/29.1291eacf.js"><link rel="prefetch" href="/test/assets/js/3.6972e55e.js"><link rel="prefetch" href="/test/assets/js/30.81382e69.js"><link rel="prefetch" href="/test/assets/js/31.5c265edf.js"><link rel="prefetch" href="/test/assets/js/32.6e65d218.js"><link rel="prefetch" href="/test/assets/js/33.98a11890.js"><link rel="prefetch" href="/test/assets/js/34.f72f3d63.js"><link rel="prefetch" href="/test/assets/js/35.8d80a272.js"><link rel="prefetch" href="/test/assets/js/36.99966b04.js"><link rel="prefetch" href="/test/assets/js/37.a51f14ae.js"><link rel="prefetch" href="/test/assets/js/38.e9493b79.js"><link rel="prefetch" href="/test/assets/js/39.c8b9051e.js"><link rel="prefetch" href="/test/assets/js/4.5adda917.js"><link rel="prefetch" href="/test/assets/js/40.7385aca4.js"><link rel="prefetch" href="/test/assets/js/41.96b8e1f7.js"><link rel="prefetch" href="/test/assets/js/42.0603fbc9.js"><link rel="prefetch" href="/test/assets/js/43.407bc00d.js"><link rel="prefetch" href="/test/assets/js/44.d62aa3ee.js"><link rel="prefetch" href="/test/assets/js/45.cb4e4227.js"><link rel="prefetch" href="/test/assets/js/46.6e14f9e2.js"><link rel="prefetch" href="/test/assets/js/47.46eec23e.js"><link rel="prefetch" href="/test/assets/js/48.d2e78092.js"><link rel="prefetch" href="/test/assets/js/49.46ca2f44.js"><link rel="prefetch" href="/test/assets/js/5.1af3fd50.js"><link rel="prefetch" href="/test/assets/js/50.e492dc6b.js"><link rel="prefetch" href="/test/assets/js/51.6ea80aca.js"><link rel="prefetch" href="/test/assets/js/52.2b446f0c.js"><link rel="prefetch" href="/test/assets/js/53.7be80b67.js"><link rel="prefetch" href="/test/assets/js/6.0baaffd4.js"><link rel="prefetch" href="/test/assets/js/7.b979ac98.js"><link rel="prefetch" href="/test/assets/js/vendors~docsearch.5a1788f2.js">
+    <link rel="stylesheet" href="/test/assets/css/0.styles.aeaa52fd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/test/" class="home-link router-link-active"><!----> <span class="site-name">计算概论学业辅导文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/test/" class="nav-link">
+  说明
+</a></div><div class="nav-item"><a href="/test/Contactme.html" class="nav-link">
+  联系我们
+</a></div><div class="nav-item"><a href="/test/About.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="外部链接" class="dropdown-title"><span class="title">外部链接</span> <span class="arrow down"></span></button> <button type="button" aria-label="外部链接" class="mobile-dropdown-title"><span class="title">外部链接</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://o7dphiquc5.feishu.cn/docx/H5imdNTLgo57wexd5mQcCFDFndg?from=from_copylink" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  留言板
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://en.cppreference.com/w/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  C++ reference
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <a href="https://github.com/FH500/test" target="_blank" rel="noopener noreferrer" class="repo-link">
+    查看源码
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/test/" class="nav-link">
+  说明
+</a></div><div class="nav-item"><a href="/test/Contactme.html" class="nav-link">
+  联系我们
+</a></div><div class="nav-item"><a href="/test/About.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="外部链接" class="dropdown-title"><span class="title">外部链接</span> <span class="arrow down"></span></button> <button type="button" aria-label="外部链接" class="mobile-dropdown-title"><span class="title">外部链接</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://o7dphiquc5.feishu.cn/docx/H5imdNTLgo57wexd5mQcCFDFndg?from=from_copylink" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  留言板
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://en.cppreference.com/w/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  C++ reference
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <a href="https://github.com/FH500/test" target="_blank" rel="noopener noreferrer" class="repo-link">
+    查看源码
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>先前准备</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/precede/Preface.html" class="sidebar-link">前言</a></li><li><a href="/test/precede/Installation.html" class="sidebar-link">配置 C/C++ 集成开发环境</a></li><li><a href="/test/precede/VSCode.html" class="sidebar-link">配置 VSCode C/C++ 开发环境</a></li><li><a href="/test/precede/VSCodeUsage.html" class="sidebar-link">使用 VSCode 编写 C/C++ 程序</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>基本知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/basic/Variables.html" class="sidebar-link">变量与类型</a></li><li><a href="/test/basic/IO.html" class="sidebar-link">输入输出</a></li><li><a href="/test/basic/Operator.html" class="sidebar-link">运算符</a></li><li><a href="/test/basic/Array.html" class="sidebar-link">数组</a></li><li><a href="/test/basic/Function.html" aria-current="page" class="active sidebar-link">函数</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/test/basic/Function.html#函数的定义" class="sidebar-link">函数的定义</a></li><li class="sidebar-sub-header"><a href="/test/basic/Function.html#函数的返回值" class="sidebar-link">函数的返回值</a></li><li class="sidebar-sub-header"><a href="/test/basic/Function.html#函数的调用" class="sidebar-link">函数的调用</a></li><li class="sidebar-sub-header"><a href="/test/basic/Function.html#值传递与引用传递" class="sidebar-link">值传递与引用传递</a></li><li class="sidebar-sub-header"><a href="/test/basic/Function.html#传入数组" class="sidebar-link">传入数组？</a></li><li class="sidebar-sub-header"><a href="/test/basic/Function.html#递归" class="sidebar-link">递归</a></li><li class="sidebar-sub-header"><a href="/test/basic/Function.html#函数的重载" class="sidebar-link">函数的重载</a></li><li class="sidebar-sub-header"><a href="/test/basic/Function.html#函数的默认参数" class="sidebar-link">函数的默认参数</a></li><li class="sidebar-sub-header"><a href="/test/basic/Function.html#标准库中的函数" class="sidebar-link">标准库中的函数</a></li></ul></li><li><a href="/test/basic/Pointer.html" class="sidebar-link">指针</a></li><li><a href="/test/basic/Statements.html" class="sidebar-link">语句</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>进阶知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/advance/Scope.html" class="sidebar-link">变量的作用域和生命周期</a></li><li><a href="/test/advance/Algorithm.html" class="sidebar-link">算法</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>STL</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/STL/Vector.html" class="sidebar-link">vector</a></li><li><a href="/test/STL/String.html" class="sidebar-link">string</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>计算机基础知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/computer/conversion.html" class="sidebar-link">进制专项</a></li><li><a href="/test/computer/hardware.html" class="sidebar-link">硬件专项</a></li><li><a href="/test/computer/Encode.html" class="sidebar-link">编码</a></li><li><a href="/test/computer/Net.html" class="sidebar-link">计算机网络</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>其他</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/more/Debug.html" class="sidebar-link">调试</a></li><li><a href="/test/more/VSCodeConfig.html" class="sidebar-link">VSCode 的配置</a></li><li><a href="/test/more/VS.html" class="sidebar-link">Visual Studio 相关</a></li><li><a href="/test/more/VPN.html" class="sidebar-link">翻墙</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>速查表</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/table/ASCII.html" class="sidebar-link">ASCII 码</a></li><li><a href="/test/table/C++Function.html" class="sidebar-link">C++ 常用标准库函数</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="函数"><a href="#函数" class="header-anchor">#</a> 函数</h1> <p>数学中，函数是从数到数的映射，即给定一个自变量，函数就会输出一个因变量。而在计算机中，函数的定义稍微有些不同。计算机中的函数是用来执行一些特定功能的东西。函数可以返回一些特定的值，也可以完全没有返回值（返回的类型为 <code>void</code>）；函数可以接受一个或多个参数，也可以完全不接受任何参数（参数为空）。</p> <h2 id="函数的定义"><a href="#函数的定义" class="header-anchor">#</a> 函数的定义</h2> <p>函数由其参数的类型和返回值的类型划分为不同的类型。函数的类型由函数的定义决定。以下是函数一般定义：</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code>T <span class="token function">nameOfFunction</span><span class="token punctuation">(</span>T1 arg1<span class="token punctuation">,</span> T2 arg2<span class="token punctuation">,</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
+</code></pre></div><p>其中，<code>T</code> 为函数返回值的类型，<code>T1</code>，<code>T2</code> 分别为参数的类型，<code>arg1</code>，<code>arg2</code> 为对应的参数。<code>nameOfFunction</code> 为函数的名字。</p> <p>以下是一些函数定义的例子：</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">double</span> <span class="token function">sqrt</span><span class="token punctuation">(</span><span class="token keyword">double</span> x<span class="token punctuation">)</span>                   <span class="token comment">// 平方根函数，输入一个 double，返回一个 double</span>
+<span class="token keyword">void</span> <span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span>                            <span class="token comment">// 返回类型和参数都为空</span>
+<span class="token keyword">int</span> <span class="token function">recursive</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span>                    <span class="token comment">// 一个参数为 int，返回也为 int</span>
+string <span class="token function">connect</span><span class="token punctuation">(</span>string s1<span class="token punctuation">,</span> string s2<span class="token punctuation">)</span>    <span class="token comment">// 两个 string 参数，返回一个 string</span>
+</code></pre></div><p>注意，函数的参数是有顺序的，不要颠倒了！</p> <p>函数的定义后面要紧跟着一个花括号，花括号内为函数的具体实现，这个东西称为函数体。函数体决定了函数的具体功能和作用。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span> <span class="token keyword">int</span> b<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 花括号内可以像 main 中一样编写语句，用来实现相应的功能。</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">&gt;</span> b<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+    <span class="token keyword">else</span>
+        <span class="token keyword">return</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在编写代码时，我们写的 <code>main</code> 实际上也是一种函数，<code>main</code> 就是我们程序的入口位置，程序开始运行时，将会从 <code>main</code> 函数开始执行代码。因此，你不能把函数定义在其他函数或是 <code>main</code> 函数中。因此，完整的代码应该是下面的样子：</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span> <span class="token keyword">int</span> b<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 花括号内可以像 main 中一样编写语句，用来实现相应的功能。</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">&gt;</span> b<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+    <span class="token keyword">else</span>
+        <span class="token keyword">return</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 省略...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="函数的返回值"><a href="#函数的返回值" class="header-anchor">#</a> 函数的返回值</h2> <p>在上面的 <code>max</code> 函数中，你应该注意到了一个特殊的语句 <code>return</code>。<code>return</code> 用来指示我们函数的返回值，你可以直接返回一个变量，也可以返回一个字面量，甚至可以返回一个表达式，只要它们的类型与我们的函数的返回类型匹配即可。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span> <span class="token keyword">int</span> b<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    string str <span class="token operator">=</span> <span class="token string">&quot;Huh?&quot;</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> str<span class="token punctuation">;</span> <span class="token comment">// 报错，返回的类型与函数的返回类型不匹配！</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在执行 <code>return</code> 语句后，函数将会直接退出，后面的代码将不会再执行。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span> <span class="token keyword">int</span> b<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">&gt;</span> b<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;a is max.\n&quot;</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;The value is &quot;</span> <span class="token operator">&lt;&lt;</span> a <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;.\n&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">else</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;b is max.\n&quot;</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> b<span class="token punctuation">;</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;The value is &quot;</span> <span class="token operator">&lt;&lt;</span> b <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;.\n&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输入：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>2 3
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>b is max.
+</code></pre></div><p>如果函数的返回类型为 <code>void</code>，则 <code>return</code> 语句后面不需要跟着任何值。<code>return</code> 后，函数直接退出。函数中的语句全部执行完毕后函数也会自动退出，此时，<code>return</code> 可以省略不写。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> a<span class="token punctuation">[</span><span class="token number">100</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">void</span> <span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">100</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+        a<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span><span class="token punctuation">;</span>     <span class="token comment">// 此处的 return 可以省略</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>但是，如果函数的返回类型不是 <code>void</code>，则一定要注意，函数的所有分支都要有相应的 <code>return</code>，否则可能会出现运行时错误！</p> <p>下面就是一个错误的例子：</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span> <span class="token keyword">int</span> b<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">&gt;</span> b<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+    <span class="token comment">// b &lt;= a 的分支下没有返回值，可能发生运行时错误！一定要避免！</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="函数的调用"><a href="#函数的调用" class="header-anchor">#</a> 函数的调用</h2> <p>定义好函数以后，你就可以在程序的其他部分使用这个函数，这被称为函数的调用。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span> <span class="token keyword">int</span> b<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">&gt;</span> b<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+    <span class="token keyword">else</span>
+        <span class="token keyword">return</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Compare 5 and 2.\n&quot;</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;The bigger is &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 调用了 max 函数。</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>可以看到，要想调用函数，只需要使用函数的名字加上括号，然后传入对应的参数即可。注意，即便函数的参数为空，你也不能省略括号 <code>()</code>，括号是函数的标志！</p> <p>函数可以调用其他的函数。例如：</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">funB</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;B is called.\n&quot;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">void</span> <span class="token function">funA</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;A is called.\n&quot;</span><span class="token punctuation">;</span>
+    <span class="token function">funB</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;main is called.\n&quot;</span><span class="token punctuation">;</span>
+    <span class="token function">funA</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>main is called.
+B is called.
+A is called.
+</code></pre></div><p>在调用函数时，遵循最后被调用的函数先执行的规则，被调用的函数执行完毕后，将会退出，并将可能的值返回到调用函数中，代码的控制流也会回到调用函数中。比如 <code>A</code> 函数在 <code>pos</code> 位置处调用了 <code>B</code> 函数，<code>A</code> 函数会将控制流转交给 <code>B</code>，而 <code>B</code> 函数返回（<code>return</code>）后会回到 <code>pos</code> 处，控制流返还给 <code>A</code>。</p> <p>函数调用是一种嵌套的过程，如下图。</p> <p><img src="/test/assets/img/1.7b5527c3.jpg" alt="1"></p> <p>图中我们可以看到，每个函数自身都独享一块独立的空间，这块空间保留着函数相关的数据，如函数的参数，函数的局部变量等。这样的空间称为<strong>栈帧</strong>。每当函数被调用时，就会有一块新的栈帧进入内存。因此，每次调用的函数在内存上都是不同的！（对于名字相同的函数也是如此）</p> <p><img src="/test/assets/img/2.ad82a73d.jpg" alt="2"></p> <p>因此，不管你在函数中对着函数内部的数据怎样闹腾，函数外部的数据都不会发生变化。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// x 是函数的参数，它保存在 fun 函数的内部，不论 fun 内的 x 如何改变，main 中的 x 的值都不会发生变化。</span>
+    x <span class="token operator">+=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> x <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> x<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>5
+</code></pre></div><h2 id="值传递与引用传递"><a href="#值传递与引用传递" class="header-anchor">#</a> 值传递与引用传递</h2> <p>前面我们已经说过了，函数自身在内存上独享一块内存空间。故参数传入函数中时会发生拷贝。这样的传入方式称为<strong>值传递</strong>。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;In fun address: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token operator">&amp;</span>a <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;\nValue: &quot;</span> <span class="token operator">&lt;&lt;</span> a<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;In main address: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token operator">&amp;</span>a <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;\nValue: &quot;</span> <span class="token operator">&lt;&lt;</span> a <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>In main address: 0x268e1ff8ec
+Value: 1
+In fun address: 0x268e1ff8c0
+Value: 1
+</code></pre></div><p>上面的程序中，<code>main</code> 函数和 <code>fun</code> 函数中都有相同名字的变量 <code>a</code>，然而它们的地址完全不同，说明这两个函数中的 <code>a</code> 是不同的变量。改变其中一个 <code>a</code> 当然不会影响另外一个。</p> <p>那么，如果想要在函数中改变函数外部变量的值，则可以使用引用 <code>&amp;</code>。函数的参数可以定义为引用类型，这时，参数在传入函数中时，不会再发生拷贝，而是真正的传入了变量本身。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token operator">&amp;</span>a<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token operator">++</span>a<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;In fun address: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token operator">&amp;</span>a <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;\nValue: &quot;</span> <span class="token operator">&lt;&lt;</span> a<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;In main address: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token operator">&amp;</span>a <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;\nValue: &quot;</span> <span class="token operator">&lt;&lt;</span> a <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;The value of a after fun is called: &quot;</span> <span class="token operator">&lt;&lt;</span> a<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>In main address: 0x28d11ffc9c
+Value: 1
+In fun address: 0x28d11ffc9c
+Value: 2
+The value of a after fun is called: 2
+</code></pre></div><p>从输出中可以看到，上面程序中的两个函数中的 <code>a</code> 的内存是相同的，它们是相同的变量。在 <code>fun</code> 中修改了变量 <code>a</code> 以后，<code>main</code> 中的 <code>a</code> 当然而然也会发生变化。此外，引用传递还有一些额外的好处。例如，如果你要传递一个很大的数据，则可以直接通过引用传递来实现。否则，如果使用值传递，数据会发生拷贝，从而造成时间和内存的浪费。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">double</span> <span class="token function">avg</span><span class="token punctuation">(</span>vector<span class="token operator">&lt;</span><span class="token keyword">double</span><span class="token operator">&gt;</span> <span class="token operator">&amp;</span>arr<span class="token punctuation">)</span> <span class="token comment">// arr 可能是含有上万个数据，值传递时会造成巨大的时间和空间开销。</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">double</span> avg <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token comment">// Do something...</span>
+    <span class="token keyword">return</span> avg<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">提示</p> <p>一般来说，传递如 <code>int</code>，<code>long long</code>，<code>double</code>，<code>bool</code> 等较小的类型时，值传递和引用传递的效率基本相同，没有必要使用引用传递来提高效率。</p></div> <p>C 语言中没有引用，当然也没有引用传递。但我们知道，指针是可以用来存储地址的，因此，通过指针也可以实现引用传递的效果，将指针传入函数中，就可以通过它来改变指针指向的数据，达到修改函数外部数据的目的。这便是指针众多作用之一。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token operator">*</span>p<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token operator">*</span>p <span class="token operator">+=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Before: &quot;</span> <span class="token operator">&lt;&lt;</span> a <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// 应该传入 a 的地址。</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;After: &quot;</span> <span class="token operator">&lt;&lt;</span> a <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>Before: 5
+After: 15
+</code></pre></div><h2 id="传入数组"><a href="#传入数组" class="header-anchor">#</a> 传入数组？</h2> <p>那么，你有时肯定想往函数里面传入一个数组。比如，我可以写一个函数，用来计算 4 个数的平均值。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">double</span> <span class="token function">avg</span><span class="token punctuation">(</span><span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">double</span> ans <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">4</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+        ans <span class="token operator">+=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> ans <span class="token operator">/</span> <span class="token number">4</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>上面的程序能够正常完成我们想要的功能。现在我们深入研究一下。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;In fun:\n&quot;</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">4</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Index: &quot;</span> <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> <span class="token string">&quot; Value: &quot;</span> <span class="token operator">&lt;&lt;</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> <span class="token string">&quot; Address: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token operator">&amp;</span>arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;In main:\n&quot;</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">4</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Index: &quot;</span> <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> <span class="token string">&quot; Value: &quot;</span> <span class="token operator">&lt;&lt;</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> <span class="token string">&quot; Address: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token operator">&amp;</span>arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>In main:
+Index: 0 Value: 1 Address: 0x8bd87ffbc0
+Index: 1 Value: 2 Address: 0x8bd87ffbc4
+Index: 2 Value: 3 Address: 0x8bd87ffbc8
+Index: 3 Value: 4 Address: 0x8bd87ffbcc
+In fun:
+Index: 0 Value: 1 Address: 0x8bd87ffbc0
+Index: 1 Value: 2 Address: 0x8bd87ffbc4
+Index: 2 Value: 3 Address: 0x8bd87ffbc8
+Index: 3 Value: 4 Address: 0x8bd87ffbcc
+</code></pre></div><p>不知道你注意到没有，<code>fun</code> 和 <code>main</code> 中的 <code>arr</code> 数组内对应的变量，它们的地址是相同的！那这不是和我们之前介绍的有出入吗？按道理，这里的数组传入的方式是值传递，<code>fun</code> 中的数组应该是一个拷贝，它的地址和 <code>main</code> 中的数组应该是不同的，可是为什么它们会指向相同的地址呢？答案是，传入函数中的并不是数组，而是一个指针。</p> <p>由于某些技术上的原因，你不能直接将一个数组原封不动地传入函数之中。C/C++ 的发明者们转而想到了另外一种方法，就是把数组转换为指针来传递。而数组的名字就可以转换为这个数组的首地址。因此，下面的函数的定义类型是完全相同的！</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">f1</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token operator">*</span>arr<span class="token punctuation">)</span>
+<span class="token keyword">void</span> <span class="token function">f2</span><span class="token punctuation">(</span><span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">void</span> <span class="token function">f3</span><span class="token punctuation">(</span><span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre></div><p><code>f1</code>，<code>f2</code>，<code>f3</code> 中的参数类型本质上都是 <code>int*</code>。<code>sizeof</code> 可以验证这一点。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> normalArr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Size of an arr: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>normalArr<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Size of an arr parameter: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>Size of an arr: 16
+Size of an arr parameter: 8
+</code></pre></div><p>上面的程序中，<code>normalArr</code> 是真正的数组，因此它的大小为 16 字节，而 <code>arr</code> 是一个指针，故它的大小为 8 字节（在 64 位编译器下）。</p> <p>作为参数的数组并不是真正意义上的数组，因此你越界访问不会出现任何错误。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">8</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">&gt;=</span> <span class="token number">4</span><span class="token punctuation">)</span>
+            cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot; Out of bound&quot;</span><span class="token punctuation">;</span>
+        cout <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>1
+2
+3
+4
+5 Out of bound
+6 Out of bound
+7 Out of bound
+8 Out of bound
+</code></pre></div><p>上面这段程序是能够正常运行输出的。因为在 <code>fun</code> 函数中的 <code>arr</code> 只是一个指针，我们传入的数据的有效长度是 8，因此并没有发生越界。这段代码是用来演示教学的，你应该注意不要写出这样具有迷惑意义的代码！</p> <p>在介绍数组时，我们已经说过了数组名可以转换为数组的首地址。因此下面的程序也能说明函数中的数组本质上是一个指针。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;In fun&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Address of variable that stores arr: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token operator">&amp;</span>arr <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Head address of arr: &quot;</span> <span class="token operator">&lt;&lt;</span> arr <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;In main&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Address of arr: &quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token operator">&amp;</span>arr <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Head address of arr: &quot;</span> <span class="token operator">&lt;&lt;</span> arr <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>In main
+Address of arr: 0xa8987ff8a0
+Head address of arr: 0xa8987ff8a0
+In fun
+Address of variable that stores arr: 0xa8987ff880
+Head address of arr: 0xa8987ff8a0
+</code></pre></div><p>你需要注意，尽管数组的首地址和数组的地址在值上是相同的，但是它们的类型是不同的，数字的首地址其类型是 <code>int*</code> 而数组的地址其类型是 <code>int (*)[n]</code>。在上面的程序中，数组的首地址以值传递的方式传入到了 <code>fun</code> 的参数中。故对 <code>fun</code> 的 <code>arr</code> 取地址得到的是一个不同的地址，它的类型是 <code>int**</code>。</p> <p>总结而言，往函数中传入数组时，其会传递数组的首地址。在函数参数中的数组其本质上是一个指针。因此，对数组参数进行的修改会实际地影响到原来的数组。在使用函数时，千万注意数组的怪异行为！</p> <h2 id="递归"><a href="#递归" class="header-anchor">#</a> 递归</h2> <p>在函数中我们可以调用其他的函数，当然也可以调用其自身。函数调用自身称为递归调用。例如，在求阶乘的时候，我们就可以利用递归。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">factorial</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">else</span>
+        <span class="token keyword">return</span> n <span class="token operator">*</span> <span class="token function">factorial</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>注意，递归中被调用的函数在内存上的空间是不同的！它们的局部变量还有参数都是独立的，因此才能实现我们想要的效果。递归调用相当于一个套娃的过程。以上面的阶乘为例，我们需要求 <code>n!</code> 只需要知道 <code>(n-1)!</code>，因而通过调用自身去求解 <code>(n-1)!</code>，反复进行，直到达到终止条件 <code>n==0</code>，而我们有直到 <code>0!=1</code>，因此问题就解决了。</p> <p><img src="/test/assets/img/4.2997ddc7.jpg" alt="4"></p> <p>递归是常用的算法之一。</p> <div class="custom-block tip"><p class="custom-block-title">爬楼梯问题</p> <p>一个人爬楼梯可以一次爬一个阶梯，也可以爬两个阶梯，那么爬 n 阶楼梯有多少种方法？
+例如，对于 3 阶的楼梯，可以连续三次只爬一阶，也可以先爬一阶再爬两阶，还可以先爬两阶再爬一阶，总共有 3 种方法。</p></div> <p>对于爬楼梯问题，我们可以将问题进行分解。由于我们爬 n 阶楼梯的方法数等于爬 n-1 阶的楼梯数加上 n-2 阶楼梯的方法数，因此，我们定义递归函数 <code>climb</code> 用来求解爬 n 阶楼梯的方法数。</p> <details class="custom-block details"><summary>参考代码</summary> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">climb</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// n == 1 和 n == 2 的问题规模已知，以此作为递归的终止条件。</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    <span class="token keyword">else</span>
+        <span class="token keyword">return</span> <span class="token function">climb</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token function">climb</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details> <div class="custom-block warning"><p class="custom-block-title">注意</p> <p>使用递归时，要注意递归的终止条件，如果递归调用一直进行下去，会发生栈溢出，程序异常终止。</p></div> <p>关于递归，我们会在算法部分进一步介绍。</p> <h2 id="函数的重载"><a href="#函数的重载" class="header-anchor">#</a> 函数的重载</h2> <div class="custom-block warning"><p class="custom-block-title">注意</p> <p>这部分内容为 C++ 独有。</p></div> <p>假如我们要实现一个名叫 <code>toString</code> 的函数，可以往里面传入一个数，然后转换为一个字符串。我们传入的数可能是一个整型，也有可能是浮点型，当传入的是浮点型是我们还想要额外一个参数来控制其精度。这样的情况下，我们可以编写两个同名但是类型不同的参数。这被称为函数的重载。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code>string <span class="token function">toString</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// Do something...</span>
+<span class="token punctuation">}</span>
+
+string <span class="token function">toString</span><span class="token punctuation">(</span><span class="token keyword">double</span> x<span class="token punctuation">,</span> <span class="token keyword">int</span> precision<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// Do something...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在调用有不同版本的函数时，编译器会根据传入参数的类型自动选择一个合适的版本，如下：</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    string str1 <span class="token operator">=</span> <span class="token function">toString</span><span class="token punctuation">(</span><span class="token number">102</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// 调用 string toString(int x)</span>
+    string str2 <span class="token operator">=</span> <span class="token function">toString</span><span class="token punctuation">(</span><span class="token number">0.123</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// 调用 string toString(double x, int precision)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>标准库里面就大量使用了函数重载。一个重要的好处就是可以把功能相近的函数集合成一个，这样你就不用为了区分不同版本而取不同的函数名，也能省下你记忆不同版本函数名的功夫。</p> <h2 id="函数的默认参数"><a href="#函数的默认参数" class="header-anchor">#</a> 函数的默认参数</h2> <div class="custom-block warning"><p class="custom-block-title">注意</p> <p>这部分内容为 C++ 独有。</p></div> <p>你可以像初始化一个变量一样在函数的参数中指定其默认值，如下：</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">void</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> x <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fun</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>1
+1
+3
+</code></pre></div><p>这时，如果不往函数里面传入参数的话，参数的值就会是默认值。</p> <p>函数有多个参数时，所有默认参数都必须指定在靠后的位置（右边），否则会报错。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> arg1 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">int</span> arg2<span class="token punctuation">,</span> <span class="token keyword">int</span> arg3 <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">)</span>   <span class="token comment">// 报错</span>
+<span class="token keyword">int</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token keyword">int</span> arg2<span class="token punctuation">,</span> <span class="token keyword">int</span> arg1 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">int</span> arg3 <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">)</span>   <span class="token comment">// 正确的写法</span>
+</code></pre></div><p>标准库中也广泛使用了默认参数。</p> <h2 id="标准库中的函数"><a href="#标准库中的函数" class="header-anchor">#</a> 标准库中的函数</h2> <p>C/C++ 中提供了大量的有用的函数，它们可以帮助我们处理相应的问题，省去我们需要自己去实现相应功能的功夫。这里体现了函数另外一个重要作用：函数将具体的语句打包成一个整体，用于实现特定的功能，从而可以让你忽略函数实现的具体细节。</p> <p>例如 C 的头文件 <code>stdlib.h</code> 中，就有将字符串转化为整型或浮点型的函数。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token comment">// 三个参数，第一个参数为字符串，第二个一般为 NULL，第三个参数表示基数，基数为 0 会自动检测。</span>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token function">strtol</span><span class="token punctuation">(</span><span class="token string">&quot;a0&quot;</span><span class="token punctuation">,</span> <span class="token constant">NULL</span><span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token function">strtol</span><span class="token punctuation">(</span><span class="token string">&quot;012&quot;</span><span class="token punctuation">,</span> <span class="token constant">NULL</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%d\n%d&quot;</span><span class="token punctuation">,</span> a<span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>160
+10
+</code></pre></div><p>C++ 的 <code>algorithm</code> 库中则提供了高效好用的排序函数 <code>sort</code>。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token comment">// 两个参数都是迭代器，排序的范围遵循迭代器范围规范。</span>
+<span class="token function">sort</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> arr <span class="token operator">+</span> <span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">6</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    cout <span class="token operator">&lt;&lt;</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+</code></pre></div><p><strong>输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>-5
+0
+2
+3
+9
+10
+</code></pre></div><p>你可能会想，这么多的函数我怎么记得住呢？不光是函数的名字需要记住，还有它的用法，返回值，还有参数的类型和意义，这么多东西我也是记不住的。最至少，你需要记住函数的大致名字，还有它的大致作用，接下来的任务就交给 IDE 了！IDE 的语法感知，代码补全，查看定义的功能就是为了省下我们记忆相关内容而设计的，你应当学活灵活运用。</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/FH500/test/edit/main/docs/basic/Function.md" target="_blank" rel="noopener noreferrer">在 Github 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">2023/11/24 19:02:44</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/test/basic/Array.html" class="prev">
+        数组
+      </a></span> <span class="next"><a href="/test/basic/Pointer.html">
+        指针
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/test/assets/js/app.a472b090.js" defer></script><script src="/test/assets/js/2.11d8e1ba.js" defer></script><script src="/test/assets/js/1.d71b1245.js" defer></script><script src="/test/assets/js/26.ea09796b.js" defer></script>
+  </body>
+</html>

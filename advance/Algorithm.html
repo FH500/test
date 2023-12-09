@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>算法 | 计算概论学业辅导文档</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/test/assets/css/0.styles.aeaa52fd.css" as="style"><link rel="preload" href="/test/assets/js/app.a472b090.js" as="script"><link rel="preload" href="/test/assets/js/2.11d8e1ba.js" as="script"><link rel="preload" href="/test/assets/js/1.d71b1245.js" as="script"><link rel="preload" href="/test/assets/js/40.7385aca4.js" as="script"><link rel="preload" href="/test/assets/js/34.f72f3d63.js" as="script"><link rel="prefetch" href="/test/assets/js/10.2f6441e7.js"><link rel="prefetch" href="/test/assets/js/11.679512bf.js"><link rel="prefetch" href="/test/assets/js/12.3cb8920a.js"><link rel="prefetch" href="/test/assets/js/13.1b9b0b0f.js"><link rel="prefetch" href="/test/assets/js/14.4109795f.js"><link rel="prefetch" href="/test/assets/js/15.878adf19.js"><link rel="prefetch" href="/test/assets/js/16.dfcc0157.js"><link rel="prefetch" href="/test/assets/js/17.617a8f05.js"><link rel="prefetch" href="/test/assets/js/18.fd66c852.js"><link rel="prefetch" href="/test/assets/js/19.80e59117.js"><link rel="prefetch" href="/test/assets/js/20.f7e2c48f.js"><link rel="prefetch" href="/test/assets/js/21.88005118.js"><link rel="prefetch" href="/test/assets/js/22.f693bd06.js"><link rel="prefetch" href="/test/assets/js/23.5f88b575.js"><link rel="prefetch" href="/test/assets/js/24.a89b93a9.js"><link rel="prefetch" href="/test/assets/js/25.17c83a3f.js"><link rel="prefetch" href="/test/assets/js/26.ea09796b.js"><link rel="prefetch" href="/test/assets/js/27.2fc23ebe.js"><link rel="prefetch" href="/test/assets/js/28.65fc86fa.js"><link rel="prefetch" href="/test/assets/js/29.1291eacf.js"><link rel="prefetch" href="/test/assets/js/3.6972e55e.js"><link rel="prefetch" href="/test/assets/js/30.81382e69.js"><link rel="prefetch" href="/test/assets/js/31.5c265edf.js"><link rel="prefetch" href="/test/assets/js/32.6e65d218.js"><link rel="prefetch" href="/test/assets/js/33.98a11890.js"><link rel="prefetch" href="/test/assets/js/35.8d80a272.js"><link rel="prefetch" href="/test/assets/js/36.99966b04.js"><link rel="prefetch" href="/test/assets/js/37.a51f14ae.js"><link rel="prefetch" href="/test/assets/js/38.e9493b79.js"><link rel="prefetch" href="/test/assets/js/39.c8b9051e.js"><link rel="prefetch" href="/test/assets/js/4.5adda917.js"><link rel="prefetch" href="/test/assets/js/41.96b8e1f7.js"><link rel="prefetch" href="/test/assets/js/42.0603fbc9.js"><link rel="prefetch" href="/test/assets/js/43.407bc00d.js"><link rel="prefetch" href="/test/assets/js/44.d62aa3ee.js"><link rel="prefetch" href="/test/assets/js/45.cb4e4227.js"><link rel="prefetch" href="/test/assets/js/46.6e14f9e2.js"><link rel="prefetch" href="/test/assets/js/47.46eec23e.js"><link rel="prefetch" href="/test/assets/js/48.d2e78092.js"><link rel="prefetch" href="/test/assets/js/49.46ca2f44.js"><link rel="prefetch" href="/test/assets/js/5.1af3fd50.js"><link rel="prefetch" href="/test/assets/js/50.e492dc6b.js"><link rel="prefetch" href="/test/assets/js/51.6ea80aca.js"><link rel="prefetch" href="/test/assets/js/52.2b446f0c.js"><link rel="prefetch" href="/test/assets/js/53.7be80b67.js"><link rel="prefetch" href="/test/assets/js/6.0baaffd4.js"><link rel="prefetch" href="/test/assets/js/7.b979ac98.js"><link rel="prefetch" href="/test/assets/js/vendors~docsearch.5a1788f2.js">
+    <link rel="stylesheet" href="/test/assets/css/0.styles.aeaa52fd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/test/" class="home-link router-link-active"><!----> <span class="site-name">计算概论学业辅导文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/test/" class="nav-link">
+  说明
+</a></div><div class="nav-item"><a href="/test/Contactme.html" class="nav-link">
+  联系我们
+</a></div><div class="nav-item"><a href="/test/About.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="外部链接" class="dropdown-title"><span class="title">外部链接</span> <span class="arrow down"></span></button> <button type="button" aria-label="外部链接" class="mobile-dropdown-title"><span class="title">外部链接</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://o7dphiquc5.feishu.cn/docx/H5imdNTLgo57wexd5mQcCFDFndg?from=from_copylink" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  留言板
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://en.cppreference.com/w/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  C++ reference
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <a href="https://github.com/FH500/test" target="_blank" rel="noopener noreferrer" class="repo-link">
+    查看源码
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/test/" class="nav-link">
+  说明
+</a></div><div class="nav-item"><a href="/test/Contactme.html" class="nav-link">
+  联系我们
+</a></div><div class="nav-item"><a href="/test/About.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="外部链接" class="dropdown-title"><span class="title">外部链接</span> <span class="arrow down"></span></button> <button type="button" aria-label="外部链接" class="mobile-dropdown-title"><span class="title">外部链接</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://o7dphiquc5.feishu.cn/docx/H5imdNTLgo57wexd5mQcCFDFndg?from=from_copylink" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  留言板
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://en.cppreference.com/w/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  C++ reference
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <a href="https://github.com/FH500/test" target="_blank" rel="noopener noreferrer" class="repo-link">
+    查看源码
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>先前准备</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/precede/Preface.html" class="sidebar-link">前言</a></li><li><a href="/test/precede/Installation.html" class="sidebar-link">配置 C/C++ 集成开发环境</a></li><li><a href="/test/precede/VSCode.html" class="sidebar-link">配置 VSCode C/C++ 开发环境</a></li><li><a href="/test/precede/VSCodeUsage.html" class="sidebar-link">使用 VSCode 编写 C/C++ 程序</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>基本知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/basic/Variables.html" class="sidebar-link">变量与类型</a></li><li><a href="/test/basic/IO.html" class="sidebar-link">输入输出</a></li><li><a href="/test/basic/Operator.html" class="sidebar-link">运算符</a></li><li><a href="/test/basic/Array.html" class="sidebar-link">数组</a></li><li><a href="/test/basic/Function.html" class="sidebar-link">函数</a></li><li><a href="/test/basic/Pointer.html" class="sidebar-link">指针</a></li><li><a href="/test/basic/Statements.html" class="sidebar-link">语句</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>进阶知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/advance/Scope.html" class="sidebar-link">变量的作用域和生命周期</a></li><li><a href="/test/advance/Algorithm.html" aria-current="page" class="active sidebar-link">算法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/test/advance/Algorithm.html#如何解题" class="sidebar-link">如何解题？</a></li><li class="sidebar-sub-header"><a href="/test/advance/Algorithm.html#什么是算法" class="sidebar-link">什么是算法</a></li><li class="sidebar-sub-header"><a href="/test/advance/Algorithm.html#枚举" class="sidebar-link">枚举</a></li><li class="sidebar-sub-header"><a href="/test/advance/Algorithm.html#递归" class="sidebar-link">递归</a></li><li class="sidebar-sub-header"><a href="/test/advance/Algorithm.html#递归与递推的区别" class="sidebar-link">递归与递推的区别</a></li><li class="sidebar-sub-header"><a href="/test/advance/Algorithm.html#贪心" class="sidebar-link">贪心</a></li><li class="sidebar-sub-header"><a href="/test/advance/Algorithm.html#动态规划" class="sidebar-link">动态规划</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>STL</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/STL/Vector.html" class="sidebar-link">vector</a></li><li><a href="/test/STL/String.html" class="sidebar-link">string</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>计算机基础知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/computer/conversion.html" class="sidebar-link">进制专项</a></li><li><a href="/test/computer/hardware.html" class="sidebar-link">硬件专项</a></li><li><a href="/test/computer/Encode.html" class="sidebar-link">编码</a></li><li><a href="/test/computer/Net.html" class="sidebar-link">计算机网络</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>其他</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/more/Debug.html" class="sidebar-link">调试</a></li><li><a href="/test/more/VSCodeConfig.html" class="sidebar-link">VSCode 的配置</a></li><li><a href="/test/more/VS.html" class="sidebar-link">Visual Studio 相关</a></li><li><a href="/test/more/VPN.html" class="sidebar-link">翻墙</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>速查表</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/test/table/ASCII.html" class="sidebar-link">ASCII 码</a></li><li><a href="/test/table/C++Function.html" class="sidebar-link">C++ 常用标准库函数</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="算法"><a href="#算法" class="header-anchor">#</a> 算法</h1> <h2 id="如何解题"><a href="#如何解题" class="header-anchor">#</a> 如何解题？</h2> <p>基本步骤：</p> <ul><li>分析
+<ul><li>理解问题的描述和其真实意图</li></ul></li> <li>设计
+<ul><li>问题的解决思路和途径，程序的整体架构设计</li></ul></li> <li>实现
+<ul><li>编写代码</li> <li>调试</li> <li>测试</li></ul></li></ul> <p>可利用的工具：</p> <ul><li>计算机知识</li> <li>C/C++ 语言基本知识</li> <li>数学知识</li> <li>STL</li> <li>IDE</li></ul> <p>基本问题：</p> <ul><li>基础计算</li> <li>格式化输入输出</li> <li>数组处理</li></ul> <h2 id="什么是算法"><a href="#什么是算法" class="header-anchor">#</a> 什么是算法</h2> <p>算法是解决问题的准确而完整的描述，是一系列清晰的指令，能够根据规范的输入，在有限时间内得到需要的输出。</p> <p>算法有好坏之分，一般以空间复杂度和时间复杂度来衡量。此外，算法的实现难度，维护难度等也是重要的指标。</p> <p>根据解题思路，算法可以分为枚举算法、递推算法、递归算法、分治算法、贪心算法、动态规划算法等。</p> <h2 id="枚举"><a href="#枚举" class="header-anchor">#</a> 枚举</h2> <p>又称为暴力算法，是一种基于逐个尝试答案的求解策略。</p> <p><strong>基本思路：</strong></p> <ul><li>确定枚举对象，范围和判定条件</li> <li>逐一枚举并验证</li></ul> <div class="custom-block tip"><p class="custom-block-title">E0. 鸡兔同笼</p> <p>一个笼子里面关了鸡和兔子（鸡有 2 只脚，兔子有 4 只脚，没有例外）。已经知道了笼子里面鸡和兔子的总数 <code>a</code> 和脚的总数 <code>b</code>，问笼子里面有多少只鸡，有多少只兔子？</p> <p><strong>题目链接：</strong></p> <p><a href="https://programming.pku.edu.cn/problem/d565d6fa3cc94bbf96c7cf2c2854a8af/" target="_blank" rel="noopener noreferrer">编程网格<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <p>首先假定兔子的数量为 <code>rabbit</code>，我们从 <code>0</code> 到 <code>a</code> 依次枚举兔子的数量，那么鸡的数量 <code>chicken</code> 为 <code>a - rabbit</code>，接下来，判定我们得到的枚举数 (<code>rabbit</code>, <code>chicken</code>) 是否满足条件（脚的数量），若满足，则找到了解。</p> <details class="custom-block details"><summary>参考代码</summary> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> a<span class="token punctuation">,</span> b<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> a <span class="token operator">&gt;&gt;</span> b<span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> rabbit <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> rabbit <span class="token operator">&lt;=</span> a<span class="token punctuation">;</span> <span class="token operator">++</span>rabbit<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> chicken <span class="token operator">=</span> a <span class="token operator">-</span> rabbit<span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token number">4</span> <span class="token operator">*</span> rabbit <span class="token operator">+</span> <span class="token number">2</span> <span class="token operator">*</span> chicken <span class="token operator">==</span> b<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            cout <span class="token operator">&lt;&lt;</span> chicken <span class="token operator">&lt;&lt;</span> <span class="token char">' '</span> <span class="token operator">&lt;&lt;</span> rabbit<span class="token punctuation">;</span>
+            <span class="token keyword">break</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details> <div class="custom-block tip"><p class="custom-block-title">E1. 完美立方数</p> <span class="katex"></span>称为完美立方等式。例如 
+<span class="katex"></span>。编写一个程序，对任给的正整数 
+<span class="katex"></span>，寻找所有的四元组 
+<span class="katex"></span>，使得 
+<span class="katex"></span>，其中 
+<span class="katex"></span>。
+<p><strong>输出：</strong></p> <p>每行输出一个完美立方，按照 <span class="katex"></span> 的值，从小到大依次输出。当两个完美立方等式中 <span class="katex"></span> 的值相同，则依次按照 <span class="katex"></span>、<span class="katex"></span>、<span class="katex"></span> 进行非降升序排列输出，即 <span class="katex"></span> 值小的先输出、然后 <span class="katex"></span> 值小的先输出、然后 <span class="katex"></span> 值小的先输出。</p> <p><strong>参考输入：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>24
+</code></pre></div><p><strong>参考输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>Cube = 6, Triple = (3,4,5)
+Cube = 12, Triple = (6,8,10)
+Cube = 18, Triple = (2,12,16)
+Cube = 18, Triple = (9,12,15)
+Cube = 19, Triple = (3,10,18)
+Cube = 20, Triple = (7,14,17)
+Cube = 24, Triple = (12,16,20)
+</code></pre></div><p><strong>题目链接：</strong></p> <p><a href="https://programming.pku.edu.cn/problem/d47236837ca14d8abdb9df5a5bc27b8d/" target="_blank" rel="noopener noreferrer">编程网格<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <p><strong>枚举的对象和范围：</strong></p> <p>a[2, N];<br>
+b[2, a - 1];<br>
+c[b, a - 1];<br>
+d[c, a - 1];</p> <details class="custom-block details"><summary>参考代码</summary> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> a <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>a<span class="token punctuation">)</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> b <span class="token operator">&lt;</span> a<span class="token punctuation">;</span> <span class="token operator">++</span>b<span class="token punctuation">)</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> c <span class="token operator">=</span> b<span class="token punctuation">;</span> c <span class="token operator">&lt;</span> a<span class="token punctuation">;</span> <span class="token operator">++</span>c<span class="token punctuation">)</span>
+                <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> d <span class="token operator">=</span> c<span class="token punctuation">;</span> d <span class="token operator">&lt;</span> a<span class="token punctuation">;</span> <span class="token operator">++</span>d<span class="token punctuation">)</span>
+                    <span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">*</span> a <span class="token operator">*</span> a <span class="token operator">==</span> b <span class="token operator">*</span> b <span class="token operator">*</span> b <span class="token operator">+</span> c <span class="token operator">*</span> c <span class="token operator">*</span> c <span class="token operator">+</span> d <span class="token operator">*</span> d <span class="token operator">*</span> d<span class="token punctuation">)</span>
+                        cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Cube = &quot;</span> <span class="token operator">&lt;&lt;</span> a <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;, Triple = (&quot;</span> <span class="token operator">&lt;&lt;</span> b <span class="token operator">&lt;&lt;</span> <span class="token char">','</span> <span class="token operator">&lt;&lt;</span> c <span class="token operator">&lt;&lt;</span> <span class="token char">','</span> <span class="token operator">&lt;&lt;</span> d <span class="token operator">&lt;&lt;</span> <span class="token char">')'</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details> <div class="custom-block tip"><p class="custom-block-title">E2. 称硬币</p> <p>赛利有12枚银币。其中有11枚真币和1枚假币。假币看起来和真币没有区别，但是重量不同。但赛利不知道假币比真币轻还是重。于是他向朋友借了一架天平。朋友希望赛利称三次就能找出假币并且确定假币是轻是重。例如:如果赛利用天平称两枚硬币，发现天平平衡，说明两枚都是真的。如果赛利用一枚真币与另一枚银币比较，发现它比真币轻或重，说明它是假币。经过精心安排每次的称量，赛利保证在称三次后确定假币。</p> <p><strong>输入：</strong></p> <p>第一行是n，表示数据共有n组。
+其后是n*3行。每组数据有三行，每行表示一次称量的结果。赛利事先将银币标号为A-L。每次称量的结果用三个以空格隔开的字符串表示：天平左边放置的硬币 天平右边放置的银币 平衡状态。其中平衡状态用&quot;up&quot;, &quot;down&quot;, 或 &quot;even&quot;表示, 分别为右端高、右端低和平衡。天平左右的银币数总是相等的。</p> <p><strong>输出：</strong></p> <p>输出为n行。每行输出一组数据中哪一个标号的银币是假币，并说明它比真币轻还是重。
+如果第K枚银币是假，并且它是轻的，则输出：<br>
+K is the counterfeit coin and it is light.<br>
+如果第K枚银币是假，并且它是重的，则输出：<br>
+K is the counterfeit coin and it is heavy.</p> <p><strong>参考输入：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>1
+ABCD EFGH even
+ABCI EFJK up
+ABIJ EFGH even
+</code></pre></div><p><strong>参考输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>K is the counterfeit coin and it is light.
+</code></pre></div><p><strong>题目链接：</strong></p> <p><a href="https://programming.pku.edu.cn/problem/003472b1955845bebabfe613f9ebbe3e/" target="_blank" rel="noopener noreferrer">编程网格<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <p><strong>枚举对象：</strong></p> <p>每个硬币，分轻重两种共 24 类。</p> <p><strong>判定条件：</strong></p> <p>所给的称量结果。</p> <details class="custom-block details"><summary>参考代码</summary> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">check</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    string coinsL<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span> coinsR<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> res<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 数据预处理</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        string strRes<span class="token punctuation">;</span>
+        cin <span class="token operator">&gt;&gt;</span> coinsL<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&gt;&gt;</span> coinsR<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&gt;&gt;</span> strRes<span class="token punctuation">;</span>
+
+        <span class="token comment">// 将结果转换为数字，1 表示左边重，-1 表示右边重。</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>strRes <span class="token operator">==</span> <span class="token string">&quot;even&quot;</span><span class="token punctuation">)</span>
+            res<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>strRes <span class="token operator">==</span> <span class="token string">&quot;up&quot;</span><span class="token punctuation">)</span>
+            res<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>strRes <span class="token operator">==</span> <span class="token string">&quot;down&quot;</span><span class="token punctuation">)</span>
+            res<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// 开始枚举假币</span>
+    <span class="token comment">// 先依次枚举为重假币</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">12</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">char</span> fakeCoin <span class="token operator">=</span> <span class="token char">'A'</span> <span class="token operator">+</span> i<span class="token punctuation">;</span>
+
+        <span class="token comment">// 对枚举结果进行检验</span>
+        <span class="token comment">// 检验结果先假定为 true，检验失败则设置为 false</span>
+        <span class="token keyword">bool</span> checkRes <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token comment">// -------</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token operator">++</span>j<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token comment">// 平衡状态下，两边都不应该有假币</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>res<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>coinsL<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>fakeCoin<span class="token punctuation">)</span> <span class="token operator">!=</span> string<span class="token double-colon punctuation">::</span>npos <span class="token operator">||</span> coinsR<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>fakeCoin<span class="token punctuation">)</span> <span class="token operator">!=</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    checkRes <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+            <span class="token comment">// 假币应出现在右边</span>
+            <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>res<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>coinsR<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>fakeCoin<span class="token punctuation">)</span> <span class="token operator">==</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    checkRes <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+            <span class="token comment">// 假币应出现在左边</span>
+            <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>res<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>coinsL<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>fakeCoin<span class="token punctuation">)</span> <span class="token operator">==</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    checkRes <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token comment">// -------</span>
+        <span class="token comment">// 检验通过，则返回结果，否则继续下一次循环。</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>checkRes<span class="token punctuation">)</span>
+            cout <span class="token operator">&lt;&lt;</span> fakeCoin <span class="token operator">&lt;&lt;</span> <span class="token string">&quot; is the counterfeit coin and it is heavy.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// 依次枚举为轻假币</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">12</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">char</span> fakeCoin <span class="token operator">=</span> <span class="token char">'A'</span> <span class="token operator">+</span> i<span class="token punctuation">;</span>
+
+        <span class="token comment">// 对枚举结果进行检验</span>
+        <span class="token comment">// 检验结果先假定为 true，检验失败则设置为 false</span>
+        <span class="token keyword">bool</span> checkRes <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token comment">// -------</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token operator">++</span>j<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token comment">// 平衡状态下，两边都不应该有假币</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>res<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>coinsL<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>fakeCoin<span class="token punctuation">)</span> <span class="token operator">!=</span> string<span class="token double-colon punctuation">::</span>npos <span class="token operator">||</span> coinsR<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>fakeCoin<span class="token punctuation">)</span> <span class="token operator">!=</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    checkRes <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+            <span class="token comment">// 假币应出现在左边</span>
+            <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>res<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>coinsL<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>fakeCoin<span class="token punctuation">)</span> <span class="token operator">==</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    checkRes <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+            <span class="token comment">// 假币应出现在右边</span>
+            <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>res<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>coinsR<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>fakeCoin<span class="token punctuation">)</span> <span class="token operator">==</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    checkRes <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token comment">// -------</span>
+        <span class="token comment">// 检验通过，则返回结果，否则继续下一次循环。</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>checkRes<span class="token punctuation">)</span>
+            cout <span class="token operator">&lt;&lt;</span> fakeCoin <span class="token operator">&lt;&lt;</span> <span class="token string">&quot; is the counterfeit coin and it is light.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+        <span class="token function">check</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details> <p>枚举算法是一种实现起来较为简单，但效率也较低的一种算法。某些情况下，枚举消耗的时间会随问题的规模以指数级别的方式增长，以致枚举不可解，此时需要寻找其他更加高效的算法。</p> <h2 id="递归"><a href="#递归" class="header-anchor">#</a> 递归</h2> <p>函数调用自身称为递归调用。</p> <div class="custom-block tip"><p class="custom-block-title">E3. N 皇后问题</p> <p>n 后问题要求在一个 n * n 格的棋盘上放置n个皇后，使得他们彼此不受攻击。按照国际象棋的规则，一个皇后可以攻击与之处在同一行或同一列或同一斜线上的其它任何棋子。因此，n 后问题等价于要求在一个 n * n 格的棋盘上放置 n 个皇后，使得任何 2 个皇后不能在同一行或同一列或同一斜线上。</p> <p><strong>输出：</strong></p> <p>输出一个正整数，表明对于给定的 n * n 的棋盘，共有多少种放置方法。</p> <p><strong>题目链接：</strong></p> <p><a href="https://programming.pku.edu.cn/problem/f452476fa0e544d1a664094fd2dcb998/" target="_blank" rel="noopener noreferrer">编程网格<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <p>显然，每行只能放置一个皇后，因此，可以逐行枚举。那么八皇后问题需要 8 重循环，n 皇后问题需要 n 重循环。循环的层数不确定，没有固定实现。可以利用递归来替代不固定的多重循环的问题。</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token comment">// 在 0 ~ x - 1 行皇后以及放置好的情况下，放置第 x 行皇后。</span>
+<span class="token keyword">void</span> <span class="token function">put</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">&gt;=</span> n<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// 皇后全部放置完毕，输出或统计</span>
+        <span class="token keyword">return</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">else</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">check</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> x<span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment">// 检查是否与已经放置的皇后冲突</span>
+            <span class="token punctuation">{</span>
+                <span class="token comment">// 放置下一个皇后</span>
+                <span class="token function">put</span><span class="token punctuation">(</span>x <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><details class="custom-block details"><summary>参考代码</summary> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token keyword">int</span> board<span class="token punctuation">[</span><span class="token number">12</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> ans <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">bool</span> <span class="token function">check</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">,</span> <span class="token keyword">int</span> y<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 左上、正下、右下</span>
+    <span class="token keyword">int</span> Xdirections<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> Ydirections<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token comment">// 依次对三个方向进行检查</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> Xdir <span class="token operator">=</span> Xdirections<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> Ydir <span class="token operator">=</span> Ydirections<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> nextX <span class="token operator">=</span> x <span class="token operator">+</span> Xdir<span class="token punctuation">;</span>
+        <span class="token keyword">int</span> nextY <span class="token operator">=</span> y <span class="token operator">+</span> Ydir<span class="token punctuation">;</span>
+        <span class="token keyword">int</span> curX <span class="token operator">=</span> x<span class="token punctuation">;</span>
+        <span class="token keyword">int</span> curY <span class="token operator">=</span> y<span class="token punctuation">;</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>nextX <span class="token operator">&gt;=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> nextX <span class="token operator">&lt;</span> n <span class="token operator">&amp;&amp;</span> nextY <span class="token operator">&gt;=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> nextY <span class="token operator">&lt;</span> n<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            curX <span class="token operator">=</span> nextX<span class="token punctuation">;</span>
+            curY <span class="token operator">=</span> nextY<span class="token punctuation">;</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>board<span class="token punctuation">[</span>curY<span class="token punctuation">]</span> <span class="token operator">==</span> curX<span class="token punctuation">)</span>
+                <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+            nextX <span class="token operator">+=</span> Xdir<span class="token punctuation">;</span>
+            nextY <span class="token operator">+=</span> Ydir<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 在 x 行上放置皇后。</span>
+<span class="token keyword">void</span> <span class="token function">put</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 递归终止条件</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">&gt;=</span> n<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token operator">++</span>ans<span class="token punctuation">;</span>
+        <span class="token keyword">return</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// 检验是否可以放置皇后</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">check</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> x<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token comment">// 可以放置皇后，修改当前状态</span>
+            board<span class="token punctuation">[</span>x<span class="token punctuation">]</span> <span class="token operator">=</span> i<span class="token punctuation">;</span>
+            <span class="token comment">// 进入下一层递归</span>
+            <span class="token function">put</span><span class="token punctuation">(</span>x <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">// 移除当前层递归放置的皇后，恢复状态。</span>
+            board<span class="token punctuation">[</span>x<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token comment">// 初始化</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+        board<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token function">put</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> ans<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details> <div class="custom-block tip"><p class="custom-block-title">E4. 汉诺塔问题</p> <p>约19世纪末，在欧州的商店中出售一种智力玩具，在一块铜板上有三根杆，最左边的杆上自上而下、由小到大顺序串着由64个圆盘构成的塔。目的是将最左边杆上的盘全部移到中间的杆上，条件是一次只能移动一个盘，且不允许大盘放在小盘的上面。
+这是一个著名的问题，几乎所有的教材上都有这个问题。由于条件是一次只能移动一个盘，且不允许大盘放在小盘上面，所以64个盘的移动次数是：18,446,744,073,709,551,615
+这是一个天文数字，若每一微秒可能计算(并不输出)一次移动，那么也需要几乎一百万年。我们仅能找出问题的解决方法并解决较小N值时的汉诺塔，但很难用计算机解决64层的汉诺塔。</p> <p>假定圆盘从小到大编号为1, 2, ...</p> <p><strong>输入：</strong></p> <p>输入为一个整数后面跟三个单字符字符串。
+整数为盘子的数目，后三个字符表示三个杆子的编号。</p> <p><strong>输出：</strong></p> <p>输出每一步移动盘子的记录。一次移动一行。
+每次移动的记录为例如 a-&gt;3-&gt;b 的形式，即把编号为3的盘子从a杆移至b杆。</p> <p><strong>参考输入：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>2 a b c
+</code></pre></div><p><strong>参考输出：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>a-&gt;1-&gt;c
+a-&gt;2-&gt;b
+c-&gt;1-&gt;b
+</code></pre></div><p><strong>题目链接：</strong></p> <p><a href="https://programming.pku.edu.cn/problem/5f2560c51bf740a28cdaf07a2fbedfea/" target="_blank" rel="noopener noreferrer">编程网格<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <details class="custom-block details"><summary>参考代码</summary> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">char</span> plates<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 用于解析字符</span>
+<span class="token keyword">char</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">return</span> plates<span class="token punctuation">[</span>x<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">void</span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token keyword">int</span> from<span class="token punctuation">,</span> <span class="token keyword">int</span> to<span class="token punctuation">,</span> <span class="token keyword">int</span> size<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// 圆盘从小到大编号为 1，2，3，...，n。</span>
+    <span class="token comment">// size == 1 时，直接将盘子从 from 移动到 to 即可。</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>size <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token function">resolve</span><span class="token punctuation">(</span>from<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;-&gt;&quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token number">1</span> <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;-&gt;&quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token function">resolve</span><span class="token punctuation">(</span>to<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token comment">// size &gt; 1 时，需要三步</span>
+    <span class="token comment">// 第一步，将除了最下面的盘子以外的所有盘子移动到不是 to 的另一个盘子处，称为中转处。</span>
+    <span class="token comment">// 第二步，将最下面的盘子移动到 to 处。</span>
+    <span class="token comment">// 第三步，将中转处的盘子移动到 to 处。</span>
+    <span class="token keyword">else</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> another <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token comment">// 寻找 another 的值。</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>another <span class="token operator">==</span> from <span class="token operator">||</span> another <span class="token operator">==</span> to<span class="token punctuation">)</span>
+            <span class="token operator">++</span>another<span class="token punctuation">;</span>
+        <span class="token function">move</span><span class="token punctuation">(</span>from<span class="token punctuation">,</span> another<span class="token punctuation">,</span> size <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token function">resolve</span><span class="token punctuation">(</span>from<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;-&gt;&quot;</span> <span class="token operator">&lt;&lt;</span> size <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;-&gt;&quot;</span> <span class="token operator">&lt;&lt;</span> <span class="token function">resolve</span><span class="token punctuation">(</span>to<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+        <span class="token function">move</span><span class="token punctuation">(</span>another<span class="token punctuation">,</span> to<span class="token punctuation">,</span> size <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> plates<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">&gt;&gt;</span> plates<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">&gt;&gt;</span> plates<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details> <div class="custom-block tip"><p class="custom-block-title">E5. 爬楼梯</p> <p>树老师爬楼梯，他可以每次走1级或者2级，输入楼梯的级数，求不同的走法数。</p> <p>例如：楼梯一共有3级，他可以每次都走一级，或者第一次走一级，第二次走两级，也可以第一次走两级，第二次走一级，一共3种方法。</p> <p><strong>输入：</strong></p> <p>输入包含若干行，每行包含一个正整数N，代表楼梯级数，1≤N≤30。</p> <p><strong>输出：</strong></p> <p>不同的走法数，每一行输入对应一行输出。</p> <p><strong>题目链接：</strong></p> <p><a href="http://ybt.ssoier.cn:8088/problem_show.php?pid=1204" target="_blank" rel="noopener noreferrer">信奥<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <p>递推关系：
+<span class="katex"></span></p> <p>边界条件：
+<span class="katex"></span></p> <details class="custom-block details"><summary>参考代码</summary> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">climb</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// n == 1 和 n == 2 的问题规模已知，以此作为递归的终止条件。</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    <span class="token keyword">else</span>
+        <span class="token keyword">return</span> <span class="token function">climb</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token function">climb</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> n<span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">)</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token function">climb</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details> <p>递归的作用：</p> <ul><li>代替 n 重循环</li> <li>将问题分解为规模更小的相似的子问题求解</li></ul> <h2 id="递归与递推的区别"><a href="#递归与递推的区别" class="header-anchor">#</a> 递归与递推的区别</h2> <p>解决 n 阶乘的递归版本：</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> <span class="token function">factorial</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">else</span>
+        <span class="token keyword">return</span> n <span class="token operator">*</span> <span class="token function">factorial</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>解决 n 阶乘的递推版本：</p> <div class="language-cpp extra-class"><pre class="language-cpp"><code><span class="token keyword">int</span> ans <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    ans <span class="token operator">*=</span> i<span class="token punctuation">;</span>
+</code></pre></div><p>两者最重要的区别是解决问题的架构不同。</p> <p>递归：自上而下<br>
+递推：自下而上</p> <p>通常来说，递推会比递归拥有更高的效率，但也更难实现和设计。</p> <h2 id="贪心"><a href="#贪心" class="header-anchor">#</a> 贪心</h2> <h2 id="动态规划"><a href="#动态规划" class="header-anchor">#</a> 动态规划</h2> <p>将<strong>一个问题分解为子问题</strong>分阶段求解，并<strong>保存子问题求解的结果</strong>以避免重复计算的方法，通常用于求解最优化问题。</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/FH500/test/edit/main/docs/advance/Algorithm.md" target="_blank" rel="noopener noreferrer">在 Github 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">2023/12/2 20:52:26</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/test/advance/Scope.html" class="prev">
+        变量的作用域和生命周期
+      </a></span> <span class="next"><a href="/test/STL/Vector.html">
+        vector
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/test/assets/js/app.a472b090.js" defer></script><script src="/test/assets/js/2.11d8e1ba.js" defer></script><script src="/test/assets/js/1.d71b1245.js" defer></script><script src="/test/assets/js/40.7385aca4.js" defer></script><script src="/test/assets/js/34.f72f3d63.js" defer></script>
+  </body>
+</html>
