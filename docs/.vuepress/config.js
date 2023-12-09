@@ -103,6 +103,8 @@ module.exports =
                 [
                     '/computer/conversion',
                     '/computer/hardware',
+                    '/computer/Encode',
+                    '/computer/Net'
                 ]
             },
             {
